@@ -76,10 +76,10 @@ class TestTriangles(unittest.TestCase):
         self.assertEqual(classify_triangle(5,4,3), 'Right', 'Right Triangle but parameters are not in ascending order')
 
 def main():
-    print ("Equilateral : "+classify_triangle(3,3,3))
-    print ("Isosceles : "+classify_triangle(5,5,4))
-    print("Scalene : "+classify_triangle(7,12,15))
-    print("Right : "+classify_triangle(3,4,5))
+    #print ("Equilateral : "+classify_triangle(3,3,3))
+    #print ("Isosceles : "+classify_triangle(5,5,4))
+    #print("Scalene : "+classify_triangle(7,12,15))
+    #print("Right : "+classify_triangle(3,4,5))
     unittest.main(exit=False, verbosity = 2)
 
 if __name__ == "__main__" :
